@@ -1,0 +1,78 @@
+﻿@page
+@model show_movie_crud_app.Pages.Admin.Movies.CreateModel
+@{
+}
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/show_movie_crud_app.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <center>
+        <h1 style="position: relative; top: 1em">Add a New Movie</h1>
+        <form method="post" enctype="multipart/form-data" style="width: 100%">
+            <table width="100%" style="position: relative; top: 5em">
+                <tr>
+                    <th></th>
+                    <th></th>
+                </tr>
+                <tr style="height: 10vh">
+                    <td><label>Title</label></td>
+                    <td>
+                        <input asp-for="MovieDto.Title" />
+                        <span asp-validation-for="MovieDto.Title" class="text-danger"></span>
+                    </td>
+                </tr>
+                <tr style="height: 10vh">
+                    <td><label>Genre</label></td>
+                    <td>
+                        <input asp-for="MovieDto.Genre"/>
+                        <span asp-validation-for="MovieDto.Genre" class="text-danger"></span>
+                    </td>
+                </tr style="height: 10vh">
+                <tr style="height: 10vh">
+                    <td><label>Rating: </label></td>
+                    <td>
+                        <select asp-for="MovieDto.Rating">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+
+                        </select>
+                        <span asp-validation-for="MovieDto.Rating" class="text-danger"></span>
+                    </td>
+                </tr>
+                <tr style="height: 10vh">
+                    <td><label>Cover:  </label></td>
+                    <td>
+                        <input asp-for="MovieDto.Cover"/>
+                        <span asp-validation-for="MovieDto.Cover" class="text-danger"></span>
+                    </td>
+                </tr>
+                <tr style="height: 10vh">
+                    <td><label>Description:     </label></td>
+                    <td>
+                        <input asp-for="MovieDto.Description" />
+                        <span asp-validation-for="MovieDto.Description" class="text-danger"></span>
+                    </td>
+                </tr>
+            </table>
+            <div class="row mb-3" style="position: relative; top: 14.5em">
+                <div class="col-sm-4 d-grid">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+                <div class="col-sm-4 d-grid">
+                    <a class="btn" style="background-color:crimson" href="/Index" role="button">Cancel</a>
+                </div>
+            </div>
+                    
+        </form>
+    </center>
+</body>
+</html>

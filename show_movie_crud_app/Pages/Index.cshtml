@@ -1,0 +1,92 @@
+﻿@page
+@model show_movie_crud_app.Pages.IndexModel
+@{
+}
+
+<html>
+    <head>
+
+    </head>
+    <body>
+    <div style="width: 20em">
+        <p></p>
+    </div>
+    <!--Access _movieList for Outputting Data-->
+    <center>
+    <h2 class="text-center mb-5">Movies</h2>
+    </center>
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom mb-3" style="width: 100%">
+        <div class="container">
+            <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                <ul class="navbar-nav flex-grow-1">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-page="/About">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-page="/Admin/Movies/Create">Add Movie</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-page="Logout" style="position: absolute; top: 0.5em; right: 1em">Logout</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+
+    <table class="table">
+        <tr>
+            <th>Title</th>
+            <th>Genre</th>
+            <th>Rating</th>
+            <th>Cover</th>
+            <th>Description</th>
+            <th>Action</th>
+        </tr>
+        
+        <!--Output Message If No Movies-->
+        @if (Model._movieList.Count == 0)
+        {
+            <h3>You Have No Movies :(</h3>
+        }
+        
+
+        @foreach (var movie in Model._movieList)
+        {
+            <tr>
+                <td>@movie.Title</td>
+                <td>@movie.Genre</td>
+                <td>@movie.Rating</td>
+                <td><img src="/images/@movie.Cover" width="100" /></td>
+                <td>@movie.Description</td>
+                <td style="white-space:nowrap">
+                    <!--
+                             the Edit and Delete URL require the product id to get a single product
+                             we do this using ?id=product.Id
+                    -->
+                    <!--When Clicked Calls Edit Razor Page-->
+                    <a style="text-decoration: none" href="/Admin/Movies/Edit?id=@movie.Id">
+                        <button style="color: white; border-radius: 0.2em; background-color: slateblue; padding-left: 1em; padding-right: 1em;">
+                            Edit
+                        </button>
+                    </a>
+                    
+                    <!--When Clicked Calls Delete Razor Page-->
+                    <a style="text-decoration: none" href="/Admin/Movies/Delete?id=@movie.Id">
+                        <button style="color: white; border-radius: 0.2em; background-color: crimson; padding-left: 1em; padding-right: 1em;">
+                            Delete
+                        </button>
+                    </a> 
+                </td>
+            </tr>
+        }
+    </table>
+    <center style="position: relative; top: 2em">
+        <a style="text-decoration: none" href="/Admin/Movies/Create">
+            <button style="color: white; border-radius: 0.2em; background-color: slateblue; padding: 1em; width: 100%;">
+                Add New Movie
+            </button>
+        </a>
+    </center>
+    </body>
+</html>

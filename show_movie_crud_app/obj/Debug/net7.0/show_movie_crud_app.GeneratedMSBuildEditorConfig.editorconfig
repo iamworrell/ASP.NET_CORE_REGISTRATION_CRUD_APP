@@ -1,0 +1,69 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = show_movie_crud_app
+build_property.RootNamespace = show_movie_crud_app
+build_property.ProjectDir = C:\WEB DEVELOPMENT\Personal Projects\ASP.NET\006_registration_crud\show_movie_crud_app\show_movie_crud_app\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\WEB DEVELOPMENT\Personal Projects\ASP.NET\006_registration_crud\show_movie_crud_app\show_movie_crud_app
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/WEB DEVELOPMENT/Personal Projects/ASP.NET/006_registration_crud/show_movie_crud_app/show_movie_crud_app/Pages/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWJvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/WEB DEVELOPMENT/Personal Projects/ASP.NET/006_registration_crud/show_movie_crud_app/show_movie_crud_app/Pages/Admin/Movies/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTW92aWVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/WEB DEVELOPMENT/Personal Projects/ASP.NET/006_registration_crud/show_movie_crud_app/show_movie_crud_app/Pages/Admin/Movies/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTW92aWVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/WEB DEVELOPMENT/Personal Projects/ASP.NET/006_registration_crud/show_movie_crud_app/show_movie_crud_app/Pages/Admin/Movies/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTW92aWVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/WEB DEVELOPMENT/Personal Projects/ASP.NET/006_registration_crud/show_movie_crud_app/show_movie_crud_app/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/WEB DEVELOPMENT/Personal Projects/ASP.NET/006_registration_crud/show_movie_crud_app/show_movie_crud_app/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/WEB DEVELOPMENT/Personal Projects/ASP.NET/006_registration_crud/show_movie_crud_app/show_movie_crud_app/Pages/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/WEB DEVELOPMENT/Personal Projects/ASP.NET/006_registration_crud/show_movie_crud_app/show_movie_crud_app/Pages/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9nb3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/WEB DEVELOPMENT/Personal Projects/ASP.NET/006_registration_crud/show_movie_crud_app/show_movie_crud_app/Pages/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/WEB DEVELOPMENT/Personal Projects/ASP.NET/006_registration_crud/show_movie_crud_app/show_movie_crud_app/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/WEB DEVELOPMENT/Personal Projects/ASP.NET/006_registration_crud/show_movie_crud_app/show_movie_crud_app/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/WEB DEVELOPMENT/Personal Projects/ASP.NET/006_registration_crud/show_movie_crud_app/show_movie_crud_app/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/WEB DEVELOPMENT/Personal Projects/ASP.NET/006_registration_crud/show_movie_crud_app/show_movie_crud_app/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-xjkz0cb261

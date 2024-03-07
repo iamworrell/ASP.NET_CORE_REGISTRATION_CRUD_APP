@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\show_movie_crud_app.props" />
+</Project>
