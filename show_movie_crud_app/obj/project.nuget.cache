@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9apkrBS71DcNOkO578dRYjymjM02lZ1dW10hIDusx+g/IsqOiZPud2T3mw3cjuGI1YvdfdDFHgDJQhK/igOW3w==",
+  "dgSpecHash": "R81WhCy/z2eQBzSfvpmkLn2w+gzPPaVC7NqXxOyubD0Kk37kOsYoxrZAIvhx8f0I4roMIGlej1I6RggGdM6LwQ==",
   "success": true,
-  "projectFilePath": "C:\\WEB DEVELOPMENT\\Personal Projects\\ASP.NET\\006_registration_crud\\show_movie_crud_app\\show_movie_crud_app\\show_movie_crud_app.csproj",
+  "projectFilePath": "C:\\WEB DEVELOPMENT\\Personal Projects\\ASP.NET\\006_registration_crud\\registration_show_movie_crud_app\\show_movie_crud_app\\show_movie_crud_app.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ghost\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\ghost\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

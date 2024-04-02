@@ -9,10 +9,6 @@
 </head>
 <body>
     <h1>Log In</h1>
-    @if (!ModelState.IsValid)
-    {
-        <p style="color: crimson">@Model.attempt</p>
-    }
     <form method="post">
         <!-- attributes such as:
                          asp-for & asp-validation-for
@@ -28,11 +24,16 @@
             <input type="password" asp-for="Model.Password" class="form-control" />
             <span asp-validation-for="Model.Password" class="text-danger"></span>
         </div>
-
+        <p></p>
         <div>
             <button type="submit" class="">Login</button>
         </div>
     </form>
+    <p></p>
+    @if (Model.attempt.Length > 0)
+    {
+        <p style="color: crimson">@Model.attempt</p>
+    }
     <p>Not a Member? </p>
     <a asp-area="" asp-page="Register">Register</a>
 </body>

@@ -50,6 +50,7 @@ namespace show_movie_crud_app.Pages
                 if (result.Succeeded)
                 {
                     Response.Redirect("Index");
+                    
                 }
                 else
                 {

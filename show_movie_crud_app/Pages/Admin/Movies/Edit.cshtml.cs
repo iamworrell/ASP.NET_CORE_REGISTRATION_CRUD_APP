@@ -69,6 +69,7 @@ namespace show_movie_crud_app.Pages.Admin.Movies
             movie.Title = MovieDto.Title;
             movie.Genre = MovieDto.Genre;
             movie.Rating = MovieDto.Rating;
+            movie.Cover = MovieDto.Cover?.FileName;
             movie.Description = MovieDto.Description;
 
             //save changes
